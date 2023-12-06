@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "C programs",
+			"path": ".."
+		},
+		{
+			"path": "../../for_git"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
