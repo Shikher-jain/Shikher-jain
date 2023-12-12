@@ -23,3 +23,12 @@ def f3():
     print("f3 is",x)
     f4()
 f3()
+
+
+# Arguments
+def Arguments(argument,new):
+    print(argument,new," Element:")
+for no in range(1,6,1):
+    no=str(no)
+    z=input("Enter "+no+" Element :")
+    Arguments(z,no)
