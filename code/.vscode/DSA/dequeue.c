@@ -1,66 +1,61 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define size 5
-int arr[size],R=-1,F=0,te=0,ch,n,i,x,a=1;
+int arr[size],R=-1,F=-1,temp=0,n,x;
 
 void rear_insert(){
-    if(te==size)
+    if(temp==size)
         printf("Queue is full");
-    else
-    {
+    else{
+        if(F==-1)
+            F=0;
         printf("Enter a number ");
         scanf("%d",&n);
-        R=(R+1)%size;
+        // R=(R+1)%size;//circular
+        R=R+1;
         arr[R]=n;
-        te=te+1;
+        temp=temp+1;
     }
 }
 void rear_del(){
-    if(te==0)
-        printf("Queue is empty");
-    else{
-        if(R==-1)
-            R=size-1;
+    if(R!=size-1||temp!=0){
         printf("Number Deleted From Rear End = %d",arr[R]);
         R=R-1;
-        te=te-1;
+        temp=temp-1;
     }
+    else
+        printf("Queue is empty");
 }
 void front_insert(){
-    if(te==size)
+    if(temp==size)
         printf("Queue is full");
     else{
         printf("Enter a number ");
         scanf("%d",&n);
-        if(F==0)
-            F=size-1;
-        else
-            F=F-1;
+        F=F-1;
         arr[F]=n;
-        te=te+1;
+        temp=temp+1;
     }
 }
 void front_del(){
-    if(te==0)
+    if(F==-1||F==size)
         printf("Queue is empty");
     else{
         printf("Number Deleted From Front End = %d",arr[F]);
-        F=(F+1)%size;
-        te=te-1;
+        F=F+1;
+        temp=temp-1;
         }
 }
 void display(){
-        if(te==0)
+        if(temp==0||R==-1)
         printf("Queue is empty");
     else{
-        x=F;
-        for(i=1; i<=te; i++){
-            printf("%d ",arr[x]);
-            x=(x+1)%size;
+        for(int i=F; i<=R; i++)
+            printf("%d ",arr[i]);
         }
-    }
 }
-int main(){
+void main(){
+    int ch,a;
     // for(;;)		// An infinite loop
     while(a!=0){
         printf("\nF=%d  R=%d\n1. Add Rear\n2. Delete Rear\n3. Add Front\n4. Delete Front\n5. Display\n6. Exit\n",F,R);
@@ -76,5 +71,4 @@ int main(){
             default:printf("Wrong Choice");
         }
     }
-    return 0;
 }
