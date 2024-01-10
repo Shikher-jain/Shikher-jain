@@ -65,23 +65,26 @@
 # print(l)
 # print(l2+m3)
 # print("set\n",set(l))
-x=int(input("Enter the value of x : "))
-match x:
-    case 1:
-        print("x is 1")
-    case 2:
-        print("x is 2")
-    case 3:
-        print("x is 3")
-    case 4:
-        print("x is 4")
-    case 5:
-        print("x is 5")
-    case 6:
-        print("x is 6")
-    case 7:
-        print("x is 7")
-    case _ if x!=8:
-        print("x =",x)
-    case _ :
-        print("x =",x)
+a=0
+while a==1:
+    x=int(input("Enter the value of x : "))
+    match x:
+        case 1:
+            print("x is 1")
+        case 2:
+            print("x is 2")
+        case 3:
+            print("x is 3")
+        case 4:
+            print("x is 4")
+        case 5:
+            print("x is 5")
+        case 6:
+            print("x is 6")
+        case 7:
+            print("x is 7")
+        case _ if x!=8:
+            print("x =",x)
+        case _ :
+            print("x =",x)
+
