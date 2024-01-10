@@ -81,5 +81,7 @@ match x:
         print("x is 6")
     case 7:
         print("x is 7")
+    case _ if x!=8:
+        print("x =",x)
     case _ :
         print("x =",x)
