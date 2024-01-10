@@ -118,31 +118,98 @@
 # rate=78.0787
 # print(f"rate is {rate:.2f}")
 
-print("Docstring")
-def sq(n):
-    '''This is Docstring in Python'''
-    print(n**2)
-sq(4)
-print(sq.__doc__)
-print('''>>> import this 
-The Zen of Python, by Tim Peters
+# print("Docstring")
+# def sq(n):
+#     '''This is Docstring in Python'''
+#     print(n**2)
+# sq(4)
+# print(sq.__doc__)
+# print('''>>> import this 
+# The Zen of Python, by Tim Peters
 
-Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren't special enough to break the rules.
-Although practicality beats purity.
-Errors should never pass silently.
-Unless explicitly silenced.
-In the face of ambiguity, refuse the temptation to guess.
-There should be one-- and preferably only one --obvious way to do it.
-Although that way may not be obvious at first unless you're Dutch.
-Now is better than never.
-Although never is often better than *right* now.
-If the implementation is hard to explain, it's a bad idea.
-If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!''')
+# Beautiful is better than ugly.
+# Explicit is better than implicit.
+# Simple is better than complex.
+# Complex is better than complicated.
+# Flat is better than nested.
+# Sparse is better than dense.
+# Readability counts.
+# Special cases aren't special enough to break the rules.
+# Although practicality beats purity.
+# Errors should never pass silently.
+# Unless explicitly silenced.
+# In the face of ambiguity, refuse the temptation to guess.
+# There should be one-- and preferably only one --obvious way to do it.
+# Although that way may not be obvious at first unless you're Dutch.
+# Now is better than never.
+# Although never is often better than *right* now.
+# If the implementation is hard to explain, it's a bad idea.
+# If the implementation is easy to explain, it may be a good idea.
+# Namespaces are one honking great idea -- let's do more of those!''')
+
+# print("Set")
+# s07={1,2,5,6,9,0}
+# s05={1,2,5,6,9,0}
+# s03={1,2,5,6,9,0}
+# s05={1,2,5,6,9,0}
+# s01={1,2,5,6,9,0}
+# s08={3,4,7,8,1,3}
+# s06={3,4,7,8,1,3}
+# s04={3,4,7,8,1,3}
+# s06={3,4,7,8,1,3}
+# s02={3,4,7,8,1,3}
+# print(s01)
+# print(s02)
+# print("union ",s01.union(s02))
+# s03.update(s04)
+# print("update",s03)
+# print("intersection",s01.intersection(s02))
+# s05.intersection_update(s06)
+# print("intersection_update",s05)
+# print("symmetric_difference ",s01.symmetric_difference(s02))
+# print(s01)
+# print(s02)
+# print("symmetric_difference_update ",s01.symmetric_difference_update(s02))
+# print("difference ",s01.difference(s02))
+# print("difference_update ",s07.difference_update(s08))
+# print(s01)
+# print(s02)
+
+# s01={"abc","xyz","pqr","mno","uvw"}
+# s02={"cba","zyx","rqp","onm","wvu"}
+# print(s01)
+# print(s02)
+# print("isdisjoint",s01.isdisjoint(s02))
+# print("issuperset",s01.issuperset(s02))
+# print("issubset",s01.issubset(s02))
+# print("issubset",s01.issubset(s02))
+# s01.add("ijk")
+# s02.add("kji")
+# print(s01)
+# print(s02)
+# s01.remove("ijk")
+# s02.discard("kji")
+# s01.pop()
+# s02.pop()
+# print(s01)
+# print(s02)
+
+
+# s01.clear()
+# s02.clear()
+# print(s01)
+# print(s02)
+
+# info={"sj",19,False,5.10}
+# print(info)
+# if "sj" in info:
+#     print("sj is present")
+# else:
+#     print(absent)
+
+print("Raise custom errors")
+a=int(input("Enter no. b/w 4 and 11: "))
+if(a<4 or a>11):
+    raise ValueError("Enter b/w 4and 11")
+else:
+    print("Thanks")
