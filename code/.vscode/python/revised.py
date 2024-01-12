@@ -20,8 +20,8 @@
 # avg04=avg03(5,9)
 # print(avg04)
 
-# list=[i*i for i in range(10)]
-# print(list)
+# list1=[i*i for i in range(10)]
+# print(list1)
 
 # list01=[i*i for i in range(10) if i%2==0]
 # print(list01)
@@ -94,6 +94,7 @@
 # t02=tuple02
 # t03=t01+t02
 # print(x)
+# print(list(tuple01))
 # print(tuple01)
 # print(tuple02)
 # print(t03)
@@ -207,9 +208,118 @@
 # else:
 #     print(absent)
 
-print("Raise custom errors")
-a=int(input("Enter no. b/w 4 and 11: "))
-if(a<4 or a>11):
-    raise ValueError("Enter b/w 4and 11")
-else:
-    print("Thanks")
+# print("Raise custom errors")
+# a=int(input("Enter no. b/w 4 and 11: "))
+# if(a<4 or a>11):
+#     raise ValueError("Enter b/w 4and 11")
+# else:
+#     print("Thanks")
+
+# print("Dictionary in Python")
+# p={}
+# print("empty dictionary",p)
+# print(type(p))
+# p=set()
+# print(type(p))
+# dic={
+#     "index":"user defined",
+#     "name":"Shikher",
+#     "mid name":" ",
+#     "last name":"Jain",
+#     "Roll no.":"2200020100075"
+# }
+# print(dic)
+# print(dic["name"])
+# print(dic["Roll no."])
+# print(dic.get("Roll no."))
+# print(dic.get("Name"))
+# print(dic.get("name"))
+# print(dic.keys())
+# print(dic.values())
+# print(dic.items())
+# print("\n")
+# for key in dic.keys():
+#     print(f"the value of key {key} is {dic[key]}")
+# print("\n")
+# for key,value in dic.items():
+#     print(f"the value of key {key} is {value}")
+
+# emp01={10:78,30:45,50:98}
+# emp02={11:28,33:75,55:89}
+# print(emp01)
+# print(emp02)
+# print(emp01.items()) 
+# print(emp02.items()) 
+# emp01.update({70:71})
+# emp01.update({50:12})
+# emp02.update({11:71})
+# emp02.update({77:12})
+# print("\n")
+# print(emp01.items()) 
+# print(emp02.items()) 
+# emp02.clear()
+# print(emp02.items()) 
+# emp02.update({11:71})
+# emp02.update({22:12})
+# emp02.update({33:21})
+# emp02.update({44:22})
+# print(emp02.items()) 
+# emp01.pop(50)
+# print(emp01.items()) 
+# emp01.popitem()
+# print("emp01.popitem()\nPOP last item from dictionary",emp01.items()) 
+# del emp02[11]
+# print(emp02) 
+
+# n=list(input("Eenter list: "))
+# for i in n:
+#     print(i)
+# else:
+#     print("Not i")
+# print(n)
+
+# n=int(input("Enter the no. of elemens in list: "))
+# lists=[]
+# i=int(i)
+# for i in range(n):
+#     x=int(input(f"Enter {i+1} element: "))
+#     lists.append(x)
+# print(lists)
+
+# print("Exception Handling")
+# try:
+#     a=int(input("Enter the No."))
+#     print(f"Multiplication table of {a} is:\n")
+#     for i in range(1,11):
+#         print(f"{a}*{i}={a*i}")
+# except Exception as e:
+#     print(Exception)
+#     print(e)
+# print("IMPORTANT LINES OF CODE")
+
+# try:
+#     num=int(input("Enter number: "))
+#     a=[2,4,6,8]
+#     print(a[num])
+# except ValueError:
+#     print("Not an Integer value")
+# except IndexError:
+#     print("Index Error")
+# except MemoryError:
+#     print("Memory Error")
+    
+# def idk(i):
+#     try:
+#         l=['f','i','l','l','y','n','a']
+#         print(l)
+#         print(l[i])
+#         return 'try'
+#     except:
+#         print("Error")
+#         return 'except'
+#     finally:
+#         print("Always executed")
+# i=int(input("Enter index: "))
+# z=idk(i)
+# print(z)
+
