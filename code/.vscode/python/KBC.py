@@ -14,7 +14,10 @@ for i in range(len(question)):
     print(f"{ques[0]}\n")
     print(f"a.{ques[1]}\tb.{ques[2]}\nc.{ques[3]}\td.{ques[4]}")
 
-    reply=int(input("Enter your answer (1-4):\n"))
+    reply=int(input("Enter your answer (1-4) or 0 for quit:\n"))
+    if(reply==0):
+        money=levels[i-1]
+        break
     if(reply==ques[-1]):
         print(f"Correct answer you won Rs. {levels[i]}")
         if(i==3):
