@@ -7,7 +7,7 @@ class VotingSystem:
         self.master.title("Voting System")
 
         self.candidates = ["BJP", "SP", "AAP"]
-        self.votes = [0, 0, 0]
+        self.votes = [0, 0, 0] 
 
         self.create_widgets()
 
