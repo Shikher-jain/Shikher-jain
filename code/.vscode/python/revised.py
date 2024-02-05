@@ -307,6 +307,7 @@
 #     print("Index Error")
 # except MemoryError:
 #     print("Memory Error")
+# raise WindowsError("WINDOWSERROR")
     
 # def idk(i):
 #     try:
@@ -323,3 +324,41 @@
 # z=idk(i)
 # print(z)
 
+# print("if-else One Line: ")
+# a=int(input("Enter a = "))
+# b=int(input("Enter b = "))
+# ans= "a>b" if a>b else "a=b" if a==b else "a<b"
+# print(ans , "By this ans= 'a>b' if a>b else 'a=b' if a==b else 'a<b'")
+# print("a>b") if a>b else print("a=b") if a==b else print("a<b")
+# print("^^^\nBy normal one line...")
+
+#        00,01,02,03,04,05,06,07,08,09,10
+#        || || || || || || || || || || ||
+#        \/,\/,\/,\/,\/,\/,\/,\/,\/,\/,\/
+# marks=[80,99,90,56,67,78,82,61,50,40,71]
+
+# print("BY NORMAL FOR LOOP: ")
+# index=0
+# for mark in marks:
+#     print(mark)
+#     if(index==4): 
+#         print("YOO0!!!")
+#     index +=1
+
+# print("-*-> ENUMERATE <-*-")
+# for index,mark in enumerate(marks):
+#     print("index:",index,"mark:",mark)
+#     if(index==4):
+#         print("YOOO!!!")
+
+# print("-*-> ENUMERATE  start by default value <-*-")
+# for index,mark in enumerate(marks,start=1):
+#     print("index:",index,"mark:",mark)
+#     if(index==4):
+#         print("YOOO!!!")
+
+# import cv2 
+# print(cv2.__version__)
+
+import pandas
+pandas.read_csv()
