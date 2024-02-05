@@ -356,9 +356,3 @@
 #     print("index:",index,"mark:",mark)
 #     if(index==4):
 #         print("YOOO!!!")
-
-# import cv2 
-# print(cv2.__version__)
-
-import pandas
-pandas.read_csv()
