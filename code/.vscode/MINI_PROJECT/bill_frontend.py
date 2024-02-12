@@ -126,7 +126,7 @@ class Bill_App:
         sprite_lbl=Label(F4,text="Sprite",font=("times new roman",16,"bold"),bg=bg_color,fg="aqua",).grid(row=5,column=0,pady=10,padx=10,sticky="w")
         sprite_qua=Entry(F4,width=10,font=("times new roman",16,"bold"),bd=10,relief=SUNKEN).grid(row=5,column=1,padx=5,pady=5)
          
-        #Bill Area
+        #Bill Area 
         F5=Frame(self.root,bd=10,relief=GROOVE)
         F5.place(x=1000,y=195,width=350,height=375)
         
