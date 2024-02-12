@@ -20,7 +20,7 @@ class voting_system:
         query="Select FirstName from voter_table where Aadhaar={}".format(Aadhaar)
         cur=self.db.cursor()
         cur.execute(query)
-        for r in cur:
+        for r in cur: 
             if r==None:
                 break
             else:

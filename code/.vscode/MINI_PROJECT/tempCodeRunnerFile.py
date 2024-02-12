@@ -5,10 +5,10 @@ class bill_app:
     def __init__(self,root):
         self.root=root
         self.root.geometry("1350x700+0+0") 
-        self.root.title("Billing software")
+        self.root.title("Billing Software")
         bg_color="blue"
         title=Label(self.root,text="Billing Software",bd=12,relief=GROOVE,bg=bg_color,fg="white",font=("times new roman",30,"bold"),pady=2).pack(fill=X)
-        #===========variables=======
+                                        #===========variables=======
 
         #=============cosmetic==========
         self.soap=IntVar()
@@ -17,7 +17,9 @@ class bill_app:
         self.spray=IntVar()
         self.gell=IntVar()
         self.lotion=IntVar()
+
         #=============grocery==========
+        
         self.rice=IntVar()
         self.food_oil=IntVar()
         self.daal=IntVar()
@@ -39,49 +41,37 @@ class bill_app:
         self.cosmetic_price=StringVar()
         self.grocery_price=StringVar()
         self.cold_drink_price=StringVar()
-
-
         self.cosmetic_tax=StringVar()
         self.grocery_tax=StringVar()
         self.cold_drink_tax=StringVar()
 
-
         #==============customer======
 
         self.c_name=StringVar()
-        self.c_phon=StringVar()
-
-
+        self.c_phon=IntVar()
         self.bill_no=StringVar()
         x=random.randint(1000,9999)
         self.search_bill=StringVar()
         self.bill_no.set(str(x))
 
-
-
-
-
-        #========Customer details
+        #========Customer details===============
         F1= LabelFrame(self.root,bd=10,relief=GROOVE,text="Customer Details",font=("times new roman",15,"bold"),fg="gold",bg=bg_color)
         F1.place(x=0,y=80,relwidth=1)
 
         cname_lbl=Label(F1,text="Customer Name",bg=bg_color,fg="white",font=("#========Customer details",18,"bold")).grid(row=0,column=0,padx=20,pady=5)
-
         cname_txt=Entry(F1,width=15,textvariable=self.c_name,font="arial 15",bd=7,relief=SUNKEN).grid(row=0,column=1,pady=5,padx=10)
+        
         cphn_lbl = Label(F1, text="PhoneNo.", bg=bg_color, fg="white", font=("times new roman", 18, "bold")).grid(row=0, column=2, padx=20, pady=5)
         cphn_txt = Entry(F1, width=15,textvariable=self.c_phon, font="arial 15", bd=7, relief=SUNKEN).grid(row=0, column=3, pady=5, padx=10)
 
-
-
         c_bill_lbl = Label(F1, text="Bill Number", bg=bg_color, fg="white", font=("times new roman", 18, "bold")).grid(row=0, column=4, padx=20, pady=5)
         c_bill_txt = Entry(F1, width=15,textvariable=self.search_bill, font="arial 15", bd=7, relief=SUNKEN).grid(row=0, column=5, pady=5, padx=10)
-
 
         bill_btn=Button(F1,text="search",command=self.find_bill,width=10,bd=7,font="arial 12 bold").grid(row=0,column=6,padx=10,pady=10)
 
         #=======cosmetic frame==========
 
-        F2=LabelFrame(self.root,bd=10,relief=GROOVE,text="Cosmetic ",font=("times new roman",15,"bold"),fg="gold",bg=bg_color)
+        F2=LabelFrame(self.root,bd=10,relief=GROOVE,text="Category 01",font=("times new roman",15,"bold"),fg="gold",bg=bg_color)
         F2.place(x=5,y=180,width=325,height=330)
 
 
@@ -105,7 +95,7 @@ class bill_app:
 
         # =======grocery frame==========
 
-        F3 = LabelFrame(self.root, bd=10, relief=GROOVE, text="Grocery ", font=("times new roman", 15, "bold"), fg="gold", bg=bg_color)
+        F3 = LabelFrame(self.root, bd=10, relief=GROOVE, text="Category 02", font=("times new roman", 15, "bold"), fg="gold", bg=bg_color)
         F3.place(x=340, y=180, width=325, height=330)
 
         g1_lbl = Label(F3, text="Rice", font=("times new roman", 16, "bold"), bg=bg_color, fg="lightgreen").grid(row=0, column=0, pady=10, padx=10, sticky="w")
@@ -128,7 +118,7 @@ class bill_app:
 
         # =======cold drink frame==========
 
-        F4 = LabelFrame(self.root, bd=10, relief=GROOVE, text="Cold Drink ", font=("times new roman", 15, "bold"),fg="gold", bg=bg_color)
+        F4 = LabelFrame(self.root, bd=10, relief=GROOVE, text="Category 03", font=("times new roman", 15, "bold"),fg="gold", bg=bg_color)
         F4.place(x=670, y=180, width=325, height=330)
 
         c1_lbl = Label(F4, text="Maza", font=("times new roman", 16, "bold"), bg=bg_color, fg="lightgreen").grid(row=0,column=0,pady=10,padx=10,sticky="w")
@@ -153,7 +143,7 @@ class bill_app:
         #=================== bill area============
 
         F5=Frame(self.root,bd=10,relief=GROOVE)
-        F5.place(x=1000,y=180,width=270,height=330)
+        F5.place(x=1000,y=180,width=340,height=330)
 
         bill_title=Label(F5,text="Bill Area",font="arial 15 bold",bd=7,relief=GROOVE).pack(fill=X)
 
@@ -208,14 +198,7 @@ class bill_app:
             self.c_hg_p=(self.gell.get() * 140)
             self.c_bl_p=  (self.lotion.get() * 180)
 
-            self.total_cosmetic_price=float(
-                                            self.c_s_p+
-                                            self.c_fc_p +
-                                            self.c_fw_p +
-                                            self.c_hs_p +
-                                            self.c_hg_p +
-                                            self.c_bl_p
-            )
+            self.total_cosmetic_price=float(self.c_s_p+self.c_fc_p +self.c_fw_p +self.c_hs_p +self.c_hg_p +self.c_bl_p)
 
             self.cosmetic_price.set("Rs  "+str(self.total_cosmetic_price))
             self.c_tax=round((self.total_cosmetic_price*0.05),2)
@@ -227,19 +210,11 @@ class bill_app:
             self.g_f_p=(self.food_oil.get() * 180)
             self.g_d_p= (self.daal.get() * 60)
             self.g_w_p=(self.wheat.get() * 240)
-            self.g_s_p= (self.wheat.get() * 240)
-            self.g_t_p=(self.tea.get() * 150)
+            self.g_s_p= (self.sugar.get() * 80)
+            self.g_t_p=(self.tea.get() * 200)
 
 
-            self.total_grocery_price = float(
-                                                self.g_r_p +
-                                                self.g_f_p +
-                                                self.g_d_p +
-                                                self.g_w_p +
-                                                self.g_s_p +
-                                                self.g_t_p
-
-                                                )
+            self.total_grocery_price = float(self.g_r_p +self.g_f_p +self.g_d_p +self.g_w_p +self.g_s_p +self.g_t_p)
             self.grocery_price.set("Rs  "+str(self.total_grocery_price))
             self.g_tax=round((self.total_grocery_price* 0.1),2)
             self.grocery_tax.set("Rs " + str(self.g_tax))
@@ -253,14 +228,7 @@ class bill_app:
             self.d_s_p= (self.sprite.get() * 60)
 
 
-            self.total_drinks_price = float(
-                                            self.d_m_p +
-                                            self.d_c_p +
-                                            self.d_f_p +
-                                            self.d_t_p +
-                                            self.d_l_p +
-                                            self.d_s_p
-                                            )
+            self.total_drinks_price = float(self.d_m_p +self.d_c_p +self.d_f_p +self.d_t_p +self.d_l_p +self.d_s_p)
 
 
             self.cold_drink_price.set("Rs  "+str(self.total_drinks_price))
@@ -268,25 +236,18 @@ class bill_app:
             self.cold_drink_tax.set("Rs " + str(self.d_tax))
 
 
-            self.Total_bill=float(
-                                    self.total_cosmetic_price+
-                                    self.total_grocery_price+
-                                    self.total_drinks_price+
-                                    self.c_tax+
-                                    self.g_tax+
-                                    self.d_tax
-            )
+            self.Total_bill=float(self.total_cosmetic_price+self.total_grocery_price+self.total_drinks_price+self.c_tax+self.g_tax+self.d_tax)
 
 
     def welcome_bill(self):
         self.txtarea.delete('1.0',END)
-        self.txtarea.insert(END,"\t Welcome To Retail\n")
-        self.txtarea.insert(END,f"\n Bill Number : {self.bill_no.get()}")
+        self.txtarea.insert(END,"\t   Welcome To Retail\n")
+        self.txtarea.insert(END,f"\n Bill Number   : {self.bill_no.get()}")
         self.txtarea.insert(END,f"\n Customer Name : {self.c_name.get()}")
-        self.txtarea.insert(END,f"\n Phone Number : {self.c_phon.get()}")
-        self.txtarea.insert(END, "\n===========================")
-        self.txtarea.insert(END, "\nProducts \t\tQTY\tRs")
-        self.txtarea.insert(END, "\n===========================")
+        self.txtarea.insert(END,f"\n Phone Number  : {self.c_phon.get()}")
+        self.txtarea.insert(END, "\n=====================================")
+        self.txtarea.insert(END, "\nProducts \t\t  QTY\t\tRs")
+        self.txtarea.insert(END, "\n=====================================")
 
     def bill_area(self):
 
@@ -372,7 +333,7 @@ class bill_app:
             if self.cold_drink_tax.get() != "Rs 0.0":
                 self.txtarea.insert(END, f"\nCold Drink Tax: \t\t{self.cold_drink_tax.get()}")
 
-            self.txtarea.insert(END, f"\n:Total Bill: \t\t Rs {self.Total_bill}")
+            self.txtarea.insert(END, f"\n\nTotal Bill: \t\t Rs {self.Total_bill}")
             self.txtarea.insert(END, f"\n----------------------------")
             self.save_bill()
 
@@ -390,8 +351,7 @@ class bill_app:
 
     def find_bill(self):
         present="no"
-        # =====================================
-        for i in os.listdir("bills"):
+        for i in os.listdir("bills/"):
             if i.split('.')[0]==self.search_bill.get():
                 f1=open(f"bills/{i}","r")
                 self.txtarea.delete("1.0",END)
@@ -407,7 +367,6 @@ class bill_app:
 
         op = messagebox.askyesno("Clear", "Do you want to clear bill?")
         if op > 0:
-
 
             # =============cosmetic==========
 

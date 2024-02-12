@@ -47,4 +47,4 @@ class VotingSystem:
 if __name__ == "__main__":
     root = tk.Tk()
     app = VotingSystem(root)
-    root.mainloop()
+    root.mainloop() 
