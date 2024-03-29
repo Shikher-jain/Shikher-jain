@@ -24,8 +24,8 @@
     }
     .box::first-letter{
         /* background-color:black; */
-        color:red;
-        font-size: 50px;
+        color:rgb(247, 9, 9);
+        font-size: 40px;
     }
     ::selection{
         color: aqua;
