@@ -356,3 +356,22 @@
 #     print("index:",index,"mark:",mark)
 #     if(index==4):
 #         print("YOOO!!!")
+
+
+# Different b/w "is" and "=="
+# a=7
+# b='7'
+# c=4
+# d=7
+# "==" (value) and "is" (exact location of object in memory)
+# print("a == b","-->",f"{a} == {b}","-->", a == b)
+# print("a is b","-->",f"{a} is {b}","-->", a is b) 
+# print("a == c","-->",f"{a} == {c}","-->", a == c)
+# print("a is c","-->",f"{a} is {c}","-->", a is c) 
+# print("a == d","-->",f"{a} == {d}","-->", a == d)
+# print("a is d","-->",f"{a} is {d}","-->", a is d) 
+
+l1=[1,2,3,4,5]
+l2=[1,2,3,4,5]
+print("l1 == l2","-->",f"{l1} == {l2}","-->", l1 == l2)
+print("l1 is l2","-->",f"{l1} is {l2}","-->", l1 is l2) 
