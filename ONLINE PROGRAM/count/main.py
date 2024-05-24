@@ -1,5 +1,0 @@
-marks = (99,99,98,77,89,00,88,80)
-n=input("Enter the element you want to count: ")
-n=int(n)
-print(marks.count(n))
-print(marks.index(n))
