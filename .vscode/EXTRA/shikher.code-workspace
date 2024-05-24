@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../shikher"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

@@ -1,0 +1,8 @@
+01. Python (spe.)
+02. Java
+03. Javascript optional
+04. DSA & DAA
+05. C++
+06. 4 mini & 2 major project OpenCV
+07. Internship
+08. 2 or 3 certification course

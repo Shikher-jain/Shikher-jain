@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../../for_git"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
