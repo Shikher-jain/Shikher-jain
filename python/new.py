@@ -26,6 +26,7 @@ def f3():
     print("f3 is",x)
     f4()
 f3()
+f3()
 
 
 # Arguments
