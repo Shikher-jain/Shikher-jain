@@ -17,6 +17,7 @@ def f1():
     print("f1 is",x)
     f2()
 f1()
+f1()
 def f4():
     print("f4 is",x)
     
