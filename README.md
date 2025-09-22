@@ -13,11 +13,11 @@
 ---
 
 ## 🛠️ Tech Stack  
-- **Languages**: Python, Java, C++, JavaScript, HTML, CSS  
-- **Frameworks/Tools**: Flask, Streamlit, Node.js  
-- **ML/DS Tools**: NumPy, Pandas, Matplotlib, Scikit-learn, TensorFlow (basic)  
-- **Databases**: MySQL, MongoDB  
-- **Other**: Git, GitHub, VS Code, Jupyter  
+- **Languages**: Python, Java, C
+- **Frameworks/Tools**: Flask, Streamlit, Django 
+- **ML/DS Tools**: NumPy, Pandas, Matplotlib, Plotly, Seaborn, Transformers, Scikit-learn, TensorFlow (basic)  
+- **Databases**: MySQL, Sqlite
+- **Other**: Git, GitHub, VS Code, Jupyter, Google Colab  
 
 ---
 
