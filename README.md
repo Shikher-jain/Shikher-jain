@@ -32,9 +32,9 @@
 ---
 
 ## 📈 GitHub Stats  
-![Shikher’s GitHub stats](https://github-readme-stats.vercel.app/api?username=shikher09&show_icons=true&theme=radical)  
+![Shikher’s GitHub stats](https://github-readme-stats.vercel.app/api?username=Shikher-jain&show_icons=true&theme=radical)  
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shikher09&layout=compact&theme=radical)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Shikher-jain&layout=compact&theme=radical)  
 
 ---
 
