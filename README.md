@@ -14,10 +14,11 @@
 
 ## 🛠️ Tech Stack  
 - **Languages**: Python, Java, C
-- **Frameworks/Tools**: Flask, Streamlit, Django 
-- **ML/DS Tools**: NumPy, Pandas, Matplotlib, Plotly, Seaborn, Transformers, Scikit-learn, TensorFlow (basic)  
-- **Databases**: MySQL, Sqlite
-- **Other**: Git, GitHub, VS Code, Jupyter, Google Colab  
+- **Web Development & Frameworks**: HTML, CSS, Flask, Django, Streamlit, FastAPI
+- **Data Science & Visualization**: NumPy, Pandas, Matplotlib, Seaborn, Plotly
+- **Machine Learning & Deep Learning**: Scikit-Learn,PyTorch,, Keras TensorFlow
+- **Artificial Intelligence & Specialized Techniques**: NLP, Transformers, OpenCV, MediaPipe
+- **Databases & Tools**: MySQL, SQLite, Git, GitHub, Postman, VS Code, Jupyter Notebook, Google Colab, Kaggle
 
 ---
 
