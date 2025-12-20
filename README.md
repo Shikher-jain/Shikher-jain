@@ -36,8 +36,7 @@
 
 ![Shikher’s GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=Shikher-jain&hide_title=true&show_icons=true&theme=gotham&include_all_commits=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Shikher-jain&layout=compact&theme=radical)  
-![GitHub Streak](https://streak-stats.demolab.com/?user=Shikher-jain)
-
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Shikher-jain)](https://git.io/streak-stats)
 ---
 
 ## 📫 Let’s Connect  
