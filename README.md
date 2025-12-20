@@ -34,6 +34,7 @@
 
 ## 📈 GitHub Stats  
 ![Shikher’s GitHub stats](https://github-readme-stats.vercel.app/api?username=Shikher-jain&show_icons=true&theme=radical)  
+![Shikher’s GitHub stats]("https://beautiful-github-homepage.vercel.app/api?username=Shikher-jain&hide_title=true&show_icons=true&theme=gotham&include_all_commits=true)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Shikher-jain&layout=compact&theme=radical)  
 
