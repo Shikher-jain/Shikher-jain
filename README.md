@@ -32,6 +32,17 @@
 
 ---
 
+<h2 align="center">🐍 Contribution Snake</h2>
+
+<p align="center">
+  <img src="https://github.com/Shikher-jain/Shikher-jain/blob/output/github-contribution-grid-snake.svg" />
+</p>
+
+<h2 align="center">👀 Profile Visitors</h2>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Shikher-jain&color=blue&style=for-the-badge" />
+</p>
 ## 📈 GitHub Stats  
 
 ![Shikher’s GitHub stats](https://beautiful-github-homepage.vercel.app/api?username=Shikher-jain&hide_title=true&show_icons=true&theme=gotham&include_all_commits=true)
