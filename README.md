@@ -63,7 +63,7 @@ class ShikherJain:
 
 | 🥇 TCS CodeVita | 🧩 DSA Problems | 🛰️ Certification | 📊 CGPA |
 |:-:|:-:|:-:|:-:|
-| **Global Rank 1040** | **300+** solved | **ISRO IIRS** | **7.83 / 10** |
+| **Global Rank 1040** | **300+** solved | **ISRO IIRS** | **7.9 / 10** |
 | out of 537,000+ | LeetCode & GFG | Geodata & ML | AKTU |
 
 </div>
