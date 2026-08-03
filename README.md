@@ -33,14 +33,14 @@
 class ShikherJain:
     def __init__(self):
         self.name        = "Shikher Jain"
-        self.role        = "Data Scientist & ML Engineer"
-        self.education   = "B.Tech CSE (AI/DS) · AKTU · 2026"
+        self.role        = "AI/ML Engineer & Data Scientist"
+        self.education   = "B.Tech CSE · AKTU · 2026"
         self.location    = "Agra, Uttar Pradesh, India"
         self.experience  = "Novas Arc Consulting · Software Engineer Intern (DS)"
 
     @property
     def focus_areas(self):
-        return ["RAG Systems", "NLP", "Computer Vision", "Backend APIs"]
+        return ["RAG Systems", "NLP", "AI", "Computer Vision", "Backend APIs"]
 
     @property
     def currently(self):
@@ -51,7 +51,7 @@ class ShikherJain:
             "TCS CodeVita":  "Global Rank 1040 (537,000+ participants)",
             "DSA":           "300+ problems · LeetCode & GeeksforGeeks",
             "Certification": "ISRO IIRS · Geodata Processing with Python & ML",
-            "CGPA":          "7.83 / 10",
+            "CGPA":          "7.86 / 10",
         }
 ```
 
