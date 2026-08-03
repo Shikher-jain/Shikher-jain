@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- HERO BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,50:8b5cf6,100:06b6d4&height=200&section=header&text=Shikher%20Jain&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Data%20Scientist%20%C2%B7%20ML%20Engineer%20%C2%B7%20Backend%20Developer&descAlignY=58&descSize=18&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,50:8b5cf6,100:06b6d4&height=200&section=header&text=Shikher%20Jain&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=AI/ML%20Engineer%20%C2%B7%20Data%20Scientist%20%C2%B7%20Backend%20Developer&descAlignY=58&descSize=18&animation=fadeIn"/>
 
 <!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Building+end-to-end+ML+systems+%F0%9F%A4%96;RAG+%7C+NLP+%7C+Computer+Vision+%7C+FastAPI;TCS+CodeVita+Global+Rank+1040+%F0%9F%8F%86;B.Tech+CSE+%E2%80%A2+AI+%26+Data+Science+%E2%80%A2+AKTU)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=Building+end-to-end+AI/ML+systems+%F0%9F%A4%96;RAG+%7C+NLP+%7C+Computer+Vision+%7C+FastAPI;TCS+CodeVita+Global+Rank+1040+%F0%9F%8F%86;B.Tech+CSE+%E2%80%A2+AI/ML+%26+Data+Science+%E2%80%A2+AKTU)](https://git.io/typing-svg)
 
 <br/>
 
