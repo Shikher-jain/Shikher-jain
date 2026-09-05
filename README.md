@@ -40,7 +40,7 @@ class ShikherJain:
 
     @property
     def focus_areas(self):
-        return ["RAG Systems", "NLP", "AI", "Computer Vision", "Backend APIs"]
+        return ["RAG Systems", "NLP", "AI Agents", "LLM Applications", "Computer Vision", "Backend APIs"]
 
     @property
     def currently(self):
@@ -63,7 +63,7 @@ class ShikherJain:
 
 | 🥇 TCS CodeVita | 🧩 DSA Problems | 🛰️ Certification | 📊 CGPA |
 |:-:|:-:|:-:|:-:|
-| **Global Rank 1040** | **300+** solved | **ISRO IIRS** | **7.9 / 10** |
+| **Global Rank 1040** | **350+** solved | **ISRO IIRS** | **7.86 / 10** |
 | out of 537,000+ | LeetCode & GFG | Geodata & ML | AKTU |
 
 </div>
@@ -153,15 +153,24 @@ Interactive demographic dashboard covering **700+ districts** with dynamic filte
 
 ### ML / AI / NLP
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
+![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white)
+![AI Agents](https://img.shields.io/badge/AI_Agents-6C63FF?style=for-the-badge)
+![Agentic AI](https://img.shields.io/badge/Agentic_AI-FF6F00?style=for-the-badge)
+![Generative AI](https://img.shields.io/badge/Generative_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+<!--![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white) -->
 
 ### Data & Visualization
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
